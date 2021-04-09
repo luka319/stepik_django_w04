@@ -1,0 +1,20 @@
+﻿
+проект week04
+
+1. Создайте новые модели
+
+Создайте модель «Application – отклик» с полями:
+
+– Имя (written_username)
+– Телефон (written_phone)
+– Сопроводительное письмо (written_cover_letter)
+– Вакансия (vacancy) – связь с Vacancy,  укажите related_name="applications"
+– Пользователь (user) – связь с User,  укажите related_name="applications"
+
+ 
+
+Добавьте новое поле в модель «Company – компании»
+
+– Владелец – owner (связь с User, тип поля: OneToOneField) 
+
+====================
